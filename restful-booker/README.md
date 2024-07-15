@@ -7,13 +7,13 @@
 - Run Command:
 
 ```console
-newman run StudentDetails.postman_collection.json -e StudentDetails.postman_environment.json
+newman run restful-booker.postman_collection.json -e newshikhi.postman_environment.json
 ```
 
 - Run Command for Report:
 
 ```console
-newman run StudentDetails.postman_collection.json -e StudentDetails.postman_environment.json -r cli,htmlextra
+newman run restful-booker.postman_collection.json -e newshikhi.postman_environment.json -r cli,htmlextra
 ```
 
 ## Technology used:
@@ -44,7 +44,7 @@ npm install -g newman-reporter-htmlextra
 
 ## API Documentation:
 
-- https://documenter.getpostman.com/view/13082503/2s93Xwz4Az
+- https://documenter.getpostman.com/view/29986135/2s9YR57FFY
 
 ## Test case list:
 
@@ -52,40 +52,11 @@ npm install -g newman-reporter-htmlextra
 
     Create Data Sets Using the Dynamic Random Variables.
 
-2. ### Verify Crated Student Details
-
+2. ### Update Student
     In the test case you need to validate the following field values:
+   1.  Token
 
-   1.  First Name
-   2.  Middle Name
-   3.  Last Name
-   4.  Date of Birth
-
-3. ### Update Student
-    In the test case you need to validate the following field values:
-   1.  Only Message
-4. ### Verify Verify Updated Student Details
-
-    In the test case you need to validate the following field values:
-
-   1.  First Name
-   2.  Middle Name
-   3.  Last Name
-   4.  Date of Birth
-
-5. ### Create Technical skills Create Student Address
-
-    In the test case you need to validate the following field values:
-
-   1.  Only Message
-
-6. ### Create a Student Address
-
-    In the test case you need to validate the following field values:
-
-   1.  Only Message
-
-7. ### Get the Student's Full Details
+3. ### Get the Student's Full Details
 
     In the test case you need to validate the following field values:
 
@@ -103,7 +74,3 @@ npm install -g newman-reporter-htmlextra
    12.  Std Code
    13.  Home Address
    14.  Mobile
-
-8. ### Delete Specific Student
-    In the test case you need to validate the following field values:
-   1.  Only Message
