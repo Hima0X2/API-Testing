@@ -108,3 +108,6 @@ npm install -g newman-reporter-htmlextra
 8. ### Delete Specific Student
     In the test case you need to validate the following field values:
    1.  Only Message
+## Report
+## Newman :
+![image](https://github.com/user-attachments/assets/106db62e-9514-4ba2-b3c5-ad7480316f34)
