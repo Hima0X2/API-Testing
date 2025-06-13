@@ -1,4 +1,4 @@
-# Student_Rest_API_Newman
+# Student_Rest_API
 
 ## How to run this project
 
@@ -44,7 +44,7 @@ npm install -g newman-reporter-htmlextra
 
 ## API Documentation:
 
-- https://documenter.getpostman.com/view/29986135/2s9YR57FFY
+- https://documenter.getpostman.com/view/38029467/2sB2x6mXPq
 
 ## Test case list:
 
@@ -67,3 +67,8 @@ npm install -g newman-reporter-htmlextra
    5.  Depositpaid
    6.  BookingDates
    7.  Additionalneeds
+  
+## Report :
+### Newman Report :
+![image](https://github.com/user-attachments/assets/4dcc372f-8cef-441e-88b7-c8faf91ce6bd)
+
